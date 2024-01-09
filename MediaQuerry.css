@@ -1,0 +1,199 @@
+/* Media query  */
+@media screen and (max-width:800px) {
+    .header{
+        height: 90vh;
+    }
+    nav{
+        width:100%;
+    height: 88px;
+        margin: auto;
+    }
+    .netflix_logo .netflix{
+        width: 150px;
+        height: 100px;
+    }
+    .nav_btn .language{
+    font-size: 10px; 
+    padding:5px 0;
+    }
+    .nav_btn .signin_btn{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    /* Header */
+    .header_content .content{
+        margin: auto;
+        width: 90%;
+        margin: 0 20px;
+        position: relative;
+        top: 50px;
+        word-wrap: wrap;
+    }
+        .content h1 {
+            font-size: 1.6rem;
+            font-weight: 900;
+        }
+        .content h4 {
+            font-size: 0.8rem;
+        }
+        .content p {
+           font-size: 0.7rem;    
+        }
+        .content input {
+            width: 90%; 
+            padding: 8px; 
+            color: white;
+            background: #000;
+            border: 1px solid grey;
+            font-size: 18px;
+            border-radius: 5px;
+        
+        }
+        .content input:hover {
+            border: 1px solid #fff;
+        }
+        .content .signin_btn {
+            width: 50%; 
+            padding: 5px; 
+            font-weight: 900;
+            font-size: 15px;
+            margin-left: 50px;
+            margin-top: 10px;
+    }
+    .content .signin_btn i {
+        margin-left: 5px;
+    }
+
+
+    /*   netflix_plan_section */
+.netflix_plan_section{
+    width: 90%;
+}
+.netflix_plan_section h1{
+    font-size: 1rem;
+    color: #fff;
+ }
+
+
+    /* movie_section */
+     .movie_cards_row1 .card  {
+       margin:0 0 30px 20px;
+}
+
+/* Resons to join */
+
+.reasons_card img{
+   margin-right: 25px; 
+   width: 500px;
+   height: 200px;
+}
+
+/* quetions section */
+
+.quetions_section{
+    width: 90%;
+}
+.quetions_section h3{
+   font-size: 1.2rem;
+   margin-left: 10px;
+   text-align: center;
+}
+.question_card{
+    padding: 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.question_card h2{
+    font-size: 0.9rem;
+}
+.question_card{
+    font-size: 0.9rem;
+}
+
+/* signup_section */
+.signup_section{
+    width: 70%;
+}
+.signup_section p{
+    color: #fff;
+font-size: 14px;
+text-align: center;
+}
+.content_btn input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+footer {
+    width: 80%;
+}
+footer h6 {
+    margin: 50px 0;
+    font-size: 1rem;   
+}
+
+.footer_content .row p{
+    font-size: 13px;
+}
+.footer_content .row {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+}
+   
+
+    @media only screen and (min-width:400px) and (max-width:515px){
+        
+/* movie_section */
+.header{
+    height: 90vh;
+}
+.content .signin_btn {
+    margin-left: 160px;
+}
+.card_title h2 {
+    color: #fff;
+    text-align: center;
+}
+.select_section h2 {
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.movie_cards_row1 .card img {
+    width: 340px;
+    height: 230px;
+}
+
+    }
+
+    @media only screen and (min-width:516px) and (max-width:786px){
+        .header{
+            height: 90vh;
+        }
+        .content .signin_btn {
+            margin-left: 140px;
+        }
+        .movie_cards_row1 .card {
+            margin: auto;
+        }
+        .movie_cards_row1{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+        .movie_cards_row1 .card img {
+            width: 180px;
+            height: 160px;
+            margin: auto;
+        }
+    }
